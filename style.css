@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  margin: 10px 0px;
+}
+
+header nav {
+  padding: 5px;
+  background-color: beige;
+  border-radius: 999px;
+  box-shadow: inset 0px 0px 10px 0px black;
+}
+
+header nav ul,
+header h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav ul li {
+  padding: 5px 15px;
+  font-weight: bolder;
+}
+
+header nav ul li a {
+  text-decoration: none;
+}
+
+header nav ul li a:hover {
+  color: black;
+}
+
+#services h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  background-color: beige;
+  margin-top: 30px;
+}
+
+#about_us h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: beige;
+  padding: 5px;
+  margin-top: 30px;
+}
+
+.imag {
+  display: flex;
+  justify-content: center;
+}
+
+.imag img {
+  padding: 4px 4px 50px 4px;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 10px 0px 15px black;
+  margin: 40px 0px 0px 0px;
+  position: relative;
+}
+
+.imag span {
+  display: inline-block;
+  margin: 285px 0px 0px 0px;
+  position: absolute;
+  font-weight: bolder;
+}
+
+#contact_us h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: beige;
+  padding: 5px;
+  margin-top: 30px;
+}
+
+#contact_us a {
+  text-decoration: none;
+}
+
+#contact_us a:hover {
+  color: blueviolet;
+}
+
+.fa-brands {
+  padding: 10px;
+  color: black;
+  border-radius: 100%;
+  background-color: rgb(238, 236, 236);
+  font-size: larger;
+}
+
+.fa-brands:hover {
+  color: white;
+  background-color: rgb(111, 105, 105);
+  box-shadow: 8px 10px 5px rgb(206, 202, 202);
+}
+
+.about_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about_img img {
+  margin: 10px;
+  /* background-color: antiquewhite; */
+  /* padding: 10px; */
+  height: 100px;
+  border-radius: 100%;
+}
+
+@media (max-width: 1526px) {
+  #contact_us a,
+  #contact_us span,
+  dl dt,
+  dl dd {
+    font-size: 14px;
+  }
+  .banner {
+    height: 350px;
+  }
+  iframe {
+    height: 200px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 1476px) {
+  .imag img {
+    width: 70%;
+  }
+}
